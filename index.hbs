@@ -16,7 +16,21 @@
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+
 </header>
+
+<aside class="featured-posts">
+    {{#foreach posts}}
+        {{#if featured}}
+        <a class="featured-post {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}" href="{{url}}">
+            <section class="post">
+                <h2>{{title}}</h2>
+                <p>{{excerpt words="19"}}&hellip;</p>
+            </section>
+        </a>
+        {{/if}}
+    {{/foreach}}
+</aside>
 
 {{! The main content area on the homepage }}
 <main id="content" class="content" role="main">
