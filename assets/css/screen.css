@@ -779,6 +779,11 @@ body.nav-opened .nav {
     width: auto;
 }
 
+.archive-template .new-logo,
+.archive-template .page-description {
+    display:none;
+}
+
 .menu-button {
     float: right;
 }
