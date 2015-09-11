@@ -14,7 +14,7 @@
     7.  Read Next
     8.  Third Party Elements
     9.  Pagination
-    10.  Footer
+    10. Footer
     11. Media Queries (Tablet)
     12. Media Queries (Mobile)
     13. Animations
@@ -777,6 +777,14 @@ body.nav-opened .nav {
     height: 38px;
     padding: 1px 0 5px 0;
     width: auto;
+}
+
+#new-logo {
+    float: left;
+}
+
+#page-info {
+    float:left;
 }
 
 .archive-template .new-logo,
