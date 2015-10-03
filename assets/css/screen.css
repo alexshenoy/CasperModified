@@ -779,7 +779,7 @@ body.nav-opened .nav {
     width: auto;
 }
 
-.archive-template .new-logo,
+.archive-template .page-title,
 .archive-template .page-description {
     display:none;
 }
